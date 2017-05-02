@@ -1,7 +1,7 @@
-From a9d8d31b91c415d3e989ed69d17b4f8c760dd48a Mon Sep 17 00:00:00 2001
+From c1568b63e63bc0aba18ddadaf8deee6b4289db4e Mon Sep 17 00:00:00 2001
 From: Jonas Karlman <jonas@kwiboo.se>
 Date: Sun, 2 Apr 2017 11:33:39 +0200
-Subject: [PATCH 14/19] drm/bridge/dw-hdmi-i2s-audio: implement get_eld
+Subject: [PATCH 13/19] drm/bridge/dw-hdmi-i2s-audio: implement get_eld
 
 ---
  drivers/gpu/drm/bridge/dw-hdmi-audio.h     |  1 +

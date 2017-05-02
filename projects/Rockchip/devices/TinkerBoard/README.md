@@ -25,15 +25,15 @@ This is an experimental project for the ASUS Tinker Board.
     * [ ] scale video correctly
 * [x] WiFi
 * [ ] ~~Bluetooth~~
-* [ ] CEC
+* [ ] ~~CEC~~
 
-**Known Issues**
+**Known Issues/Limitations**
 
 * Video is stretched to full screen and uses wrong aspect ratio
-* Scaling 2160p video to 1080p causes green lines at bottom of screen
 * Bluetooth requires unwanted changes to uart in kernel
 * Generic USB-Audio do not work due to a custom alsa config
 * 4K resolution is limited to 30hz
+* CEC is not connected to SoC
 
 **Code**
 

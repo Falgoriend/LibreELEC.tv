@@ -1,7 +1,7 @@
-From eb89bc1fb279a1e8d099a4b2a62c9585a39b4f13 Mon Sep 17 00:00:00 2001
+From 8579697c147c4d8a2a24cae724ca365980f17c53 Mon Sep 17 00:00:00 2001
 From: Laurent Pinchart <laurent.pinchart+renesas@ideasonboard.com>
 Date: Tue, 17 Jan 2017 10:29:04 +0200
-Subject: [PATCH 13/19] drm: bridge: dw-hdmi: Detect AHB audio DMA using
+Subject: [PATCH 12/19] drm: bridge: dw-hdmi: Detect AHB audio DMA using
  correct register
 
 Bit 0 in CONFIG1_ID tells whether the IP core uses an AHB slave

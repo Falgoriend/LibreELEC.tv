@@ -1,7 +1,7 @@
-From 4d5ee9fea25d0e9f7ef4875bb16dd598e297816c Mon Sep 17 00:00:00 2001
+From c4454544c0236d1f2ab5a5d54fa29df91b5af19a Mon Sep 17 00:00:00 2001
 From: Jonas Karlman <jonas@kwiboo.se>
 Date: Wed, 29 Mar 2017 23:51:09 +0200
-Subject: [PATCH 09/19] gpu/arm/midgard: default to performance gpu governor
+Subject: [PATCH 08/19] gpu/arm/midgard: default to performance gpu governor
 
 ---
  drivers/gpu/arm/midgard_for_linux/backend/gpu/mali_kbase_devfreq.c | 6 ++----

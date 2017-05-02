@@ -1,0 +1,22 @@
+From ca8b478e0269b18d2040c6cba4a39b57e7647044 Mon Sep 17 00:00:00 2001
+From: Jonas Karlman <jonas@kwiboo.se>
+Date: Tue, 2 May 2017 07:54:16 +0200
+Subject: [PATCH 19/19] drm/rockchip: fix scaling calculation
+
+---
+ drivers/gpu/drm/rockchip/rockchip_drm_vop.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/gpu/drm/rockchip/rockchip_drm_vop.h b/drivers/gpu/drm/rockchip/rockchip_drm_vop.h
+index 7e45492ba1a3..3fa4bd3c72b4 100644
+--- a/drivers/gpu/drm/rockchip/rockchip_drm_vop.h
++++ b/drivers/gpu/drm/rockchip/rockchip_drm_vop.h
+@@ -427,7 +427,7 @@ enum vop_pol {
+ 
+ static inline uint16_t scl_cal_scale(int src, int dst, int shift)
+ {
+-	return ((src * 2 - 3) << (shift - 1)) / (dst - 1);
++	return ((src - 1) << shift) / (dst - 1);
+ }
+ 
+ static inline uint16_t scl_cal_scale2(int src, int dst)
